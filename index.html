@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+       .hero {
+            background-image: url('https://cdn.pixabay.com/photo/2012/01/09/09/59/earth-11595_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+        }
+
+       .hero h1 {
+            font-size: 03rem;
+            margin-bottom: 0;
+        }
+
+       .hero p {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Welcome!  <br>
+            Master JavaScript from Scratch</h1>
+        <p>Dive Into the World of Web Development with Comprehensive JavaScript Tutorials</p>
+    </div>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/gh/mzain42401/FlowiseChatEmbed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "f6fd5b12-a3db-4e3d-8334-0910713cc2a9",
+            apiHost: "https://flowiseai-railway-production-15084.up.railway.app",
+        })
+    </script>
+    
+</body>
+</html>
